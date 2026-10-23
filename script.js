@@ -514,6 +514,7 @@
                 //  ASSIGNMENT 7
 
                 //   QUESTION 1
+                 //  multipule condition mtlb bohot sari condition lgana 
 
 // let colour = prompt("Enter  Trafic Signal Colour")
 // if (colour == "red" ) {
@@ -536,75 +537,125 @@
 
 
                //  QUESTION 2
+              //  multipule condition mtlb bohot sari condition lgana 
 
 
 
-let mark = +prompt("Enter Your Marks")  
+// let mark = +prompt("Enter Your Marks")  
 
-if(mark == false) {
+// if(mark == false) {
 
-   console.log("please enter a number");
-}
-  if(typeof(mark) == typeof(String) ) {
+//    console.log("please enter a number");
+// }
+//   if(typeof(mark) == typeof(String) ) {
 
-   console.log("please enter a number");
-}
+//    console.log("please enter a number");
+// }
  
- else if(mark >= 100) {
+//  else if(mark >= 100) {
 
-   console.log("invalid");
-}
+//    console.log("invalid");
+// }
 
- else if (mark >= 90) {
+//  else if (mark >= 90) {
  
-  console.log("A+");
+//   console.log("A+");
   
-}
+// }
 
 
-else if(mark  >= 80 ) {
-  console.log("A"); }
-
-
-
-
-else if(mark  >= 70 ) {
-
-   console.log("B");
-}
-
-
-else if(mark >= 60 ) {
-
-   console.log("C");
-} 
-
-
-else if(mark >= 50) {
-
-   console.log("D");
-}
+// else if(mark  >= 80 ) {
+//   console.log("A"); }
 
 
 
 
-else {
-   console.log("Fail");
-}
+// else if(mark  >= 70 ) {
+
+//    console.log("B");
+// }
+
+
+// else if(mark >= 60 ) {
+
+//    console.log("C");
+// } 
+
+
+// else if(mark >= 50) {
+
+//    console.log("D");
+// }
+
+
+
+
+// else {
+//    console.log("Fail");
+// }
 
 
    
  
 
 
+  
+
+                // QUESTION 3
+
+                  // Nested condition  
+    // mtlb condition ke andar 1 or condition lagana 
+
+     
+
+// let username = prompt("enter your username");
+// let password = prompt("enter your password") ;         
 
 
-
-//                 // QUESTION 3
-
-//  let username = "admin";
-// let password = 1234;         
-
-// if ( ) {
+// if ( username === "admin" ) {
+//        if (password === 1234 ) {
+//         alert("Login Successful")
+// } 
+// else{
+//   alert("Wrong Password")
+// }
+// } 
+// else{
 //   alert("Invalid Username")
 // }
+
+ 
+
+        //  ATM 
+
+
+let pin = 1234;
+let balance = 560265;
+let withdraw = +prompt("enter your withdraw amount");
+
+
+
+
+if ( pin ===  1234  ) {
+
+          if ( withdraw <= balance ) {
+ 
+          alert("Transaction Successful")
+
+}else {
+   alert("Insufficient Balance")
+}
+
+
+}else {
+   alert("INVALID PIN")
+}
+
+let totalamount = balance - withdraw
+
+document.write(` TOTAL BALANCE = ${balance} <br> `);
+document.write(` WITHDRAW AMOUNT =${withdraw}  <br> `);
+document.write(` TOTAL AMOUNT = ${totalamount}`);
+
+
+
