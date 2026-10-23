@@ -328,121 +328,283 @@
 
 
 
-      //  QUESTION 1 
+//       //  QUESTION 1 
 
-      let a = 5;   //6 //7
-      let b = 4;  //3
-      let result1 = ++a + b-- + a++;
+//       let a = 5;   //6 //7
+//       let b = 4;  //3
+//       let result1 = ++a + b-- + a++;
 
-                //  6 + 4  + 6
-                //  10 +  6
-                //  16
+//                 //  6 + 4  + 6
+//                 //  10 +  6
+//                 //  16
 
-   console.log(a);
-   console.log(b);
-   console.log(result1);
+//    console.log(a);
+//    console.log(b);
+//    console.log(result1);
    
 
 
-    // QUESTION 2 
+//     // QUESTION 2 
 
-    let c = 2;   //3 //4
-    let d = 3;  //2 //3
-    let result2 = c++ + ++c + --d +d++; 
+//     let c = 2;   //3 //4
+//     let d = 3;  //2 //3
+//     let result2 = c++ + ++c + --d +d++; 
 
-                //  2 + 4 + 2 + 2
-                //  6 + 2 +2
-                //  8 + 2
-                // 10
-
-
+//                 //  2 + 4 + 2 + 2
+//                 //  6 + 2 +2
+//                 //  8 + 2
+//                 // 10
 
 
-  console.log(c);
-   console.log(d);
-   console.log(result2);
+
+
+//   console.log(c);
+//    console.log(d);
+//    console.log(result2);
    
-    // QUESTION 3
+//     // QUESTION 3
 
-    let e = 10;   //9
-    let f = 5;   //6 //7
-    let result3 = --e + f++ - ++f;
+//     let e = 10;   //9
+//     let f = 5;   //6 //7
+//     let result3 = --e + f++ - ++f;
 
-                // 9 + 5 - 7
-                // 14 - 7
-                // 7
+//                 // 9 + 5 - 7
+//                 // 14 - 7
+//                 // 7
                 
         
 
 
-   console.log(e);
-   console.log(f);
-   console.log(result3);
+//    console.log(e);
+//    console.log(f);
+//    console.log(result3);
    
   
-  // QUESTION 4
+//   // QUESTION 4
 
-  let g = 4; //5 //4
-  let h = 2; //3
-  let result4 = ++g * h++ + --g;
+//   let g = 4; //5 //4
+//   let h = 2; //3
+//   let result4 = ++g * h++ + --g;
               
-            //  5 * 2 + 4
-            //  10 + 4
-            //  14
+//             //  5 * 2 + 4
+//             //  10 + 4
+//             //  14
 
-   console.log(g);
-   console.log(h);
-   console.log(result4);
-
-
-
-      // QUESTION 5
-
-let i = 6;   //5 //6
-let j = 3;   //2 //3
-let result5 = i-- + --j + ++i + j++;
-
-             6 + 2 + 6 + 2
-             8 + 6+ 2
-             14 + 2
-             16
+//    console.log(g);
+//    console.log(h);
+//    console.log(result4);
 
 
 
-   console.log(i);
-   console.log(j);
-   console.log(result5);
+//       // QUESTION 5
 
-   // QUESTION 6
+// let i = 6;   //5 //6
+// let j = 3;   //2 //3
+// let result5 = i-- + --j + ++i + j++;
 
-   let k = 2; //3 //4
-   let l = 4; //3
-   let result6 = ++k +  k++ * --l;
+//              6 + 2 + 6 + 2
+//              8 + 6+ 2
+//              14 + 2
+//              16
+
+
+
+//    console.log(i);
+//    console.log(j);
+//    console.log(result5);
+
+//    // QUESTION 6
+
+//    let k = 2; //3 //4
+//    let l = 4; //3
+//    let result6 = ++k +  k++ * --l;
                
-                 3 + 3 * 3
-                 3 + 9
-                 12
+//                  3 + 3 * 3
+//                  3 + 9
+//                  12
 
 
 
-     console.log(k);
-   console.log(l);
-   console.log(result6);
+//      console.log(k);
+//    console.log(l);
+//    console.log(result6);
 
 
       
-   // QUESTION 7
+//    // QUESTION 7
 
-   let m = 5; //6 //7 //6
-let n = 2;    //1 //2
-let result7 = ++m + m++ + --n * n++ - m--;
+//    let m = 5; //6 //7 //6
+// let n = 2;    //1 //2
+// let result7 = ++m + m++ + --n * n++ - m--;
   
-             6 + 6 + 1 * 1 - 7
-             6 + 6 + 1 - 7
-             12 + 1 - 7
-             13 - 7
-             6
+//              6 + 6 + 1 * 1 - 7
+//              6 + 6 + 1 - 7
+//              12 + 1 - 7
+//              13 - 7
+//              6
 
-          console.log(m);
-   console.log(n);
-   console.log(result7);
+//           console.log(m);
+//    console.log(n);
+//    console.log(result7);
+
+
+
+
+// let marks = 25
+// let marks1 = "25"
+// console.log(marks > 20);   //true
+// console.log(marks < 20);  //false
+// console.log(marks1 < "20");  //false
+ 
+// // 25 or 20 me dosra charactor check ho rha he 5 kya 0 se chota ha tw tabhi false arha he 
+
+// console.log(marks >= 20); //true
+// console.log(marks >= 20); //true
+// console.log(marks <= 20);  //false
+// console.log(marks == 20);  //false
+// console.log(marks === 20);  //false
+// console.log(20 == 20);  //true
+// console.log( "20"=== 20);  //false
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log(1 == true);
+// console.log(1 === true);
+// console.log(0 == false);
+// console.log(0 ===  false);
+
+
+
+
+// 2 se divide hojyega tw even or na ho tw odd 
+ 
+// let number = +prompt("enter your number")
+
+// if (number % 2 == 0) {
+//   alert("your number is even")
+// }
+
+// else{ alert("your number is odd")}
+
+
+//  let age = +prompt("enter your age for voting")
+
+// if (age >= 18) {
+//   alert("you are elegible for voting")
+// }
+
+// else{ alert("you are not elegible for voting")}
+ 
+
+
+
+
+  //  string ke method 
+    // index 
+// let name1 = "hell0"
+// console.log(name1.indexOf("l")); //2
+// //  length
+// console.log(name1.length);
+
+// console.log(name1[name1.length-1]);
+
+
+
+
+
+                //  ASSIGNMENT 7
+
+                //   QUESTION 1
+
+// let colour = prompt("Enter  Trafic Signal Colour")
+// if (colour == "red" ) {
+ 
+//   alert("STOP")
+// }
+// else if(colour == "yellow" ) {
+//    alert("GET READY")
+// }
+// else if(colour == "green" ) {
+//    alert("GO")
+// }
+// else {
+//  alert("Invalid Signal")
+// }
+
+
+ 
+
+
+
+               //  QUESTION 2
+
+
+
+let mark = +prompt("Enter Your Marks")  
+
+if(mark == false) {
+
+   console.log("please enter a number");
+}
+  if(typeof(mark) == typeof(String) ) {
+
+   console.log("please enter a number");
+}
+ 
+ else if(mark >= 100) {
+
+   console.log("invalid");
+}
+
+ else if (mark >= 90) {
+ 
+  console.log("A+");
+  
+}
+
+
+else if(mark  >= 80 ) {
+  console.log("A"); }
+
+
+
+
+else if(mark  >= 70 ) {
+
+   console.log("B");
+}
+
+
+else if(mark >= 60 ) {
+
+   console.log("C");
+} 
+
+
+else if(mark >= 50) {
+
+   console.log("D");
+}
+
+
+
+
+else {
+   console.log("Fail");
+}
+
+
+   
+ 
+
+
+
+
+
+//                 // QUESTION 3
+
+//  let username = "admin";
+// let password = 1234;         
+
+// if ( ) {
+//   alert("Invalid Username")
+// }
