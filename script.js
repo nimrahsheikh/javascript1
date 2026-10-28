@@ -659,3 +659,395 @@ document.write(` TOTAL AMOUNT = ${totalamount}`);
 
 
 
+// //    Question 1 
+
+
+// //  true && true = true
+// if (true && true) {
+
+
+//     console.log("result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+// //    Question 2
+
+
+// //    true && false = false
+// if (true && false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 3
+
+
+// // false && true = false        
+// if (false && true) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 4
+
+
+// // false && false = false        
+// if (false && false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 5
+
+
+// //         true  ||  true  = true 
+// if (true || true) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 6
+
+
+// //         true  || false  = true 
+// if (true || false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 7
+
+
+// //         false || true   = true 
+// if (false || true) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 8
+
+
+// //         false || false  = false 
+// if (false || false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 9
+
+
+// //         !true = false 
+// if (!true) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 10
+
+
+// //         !false  =  true
+// if (!false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 11
+
+
+// //         true && !false  = true
+// if (true && !false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 12
+
+
+// //         false && !false  = false
+// if (false && !false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 13
+
+
+// //       !true && false = false
+// if (!true && false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+
+// //    Question 14
+
+
+// //       true && false = false
+// if (true && false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 15
+
+
+// //       !false &&  true = true
+// if (!false && true) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 16
+
+
+// //         (true || false) && !(false && true)
+// //  true && ! false
+// // true && true 
+// // true
+// if ((true || false) && !(false && true)) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 17
+
+
+// //              false || true && false 
+// // false || false
+// //   false 
+// if (false || true && false) {
+
+
+//     console.log(" result");
+
+// }
+// else {
+
+//     console.log(" not result");
+// }
+
+// //    Question 18
+
+
+// //       !false || false && true 
+// //  true ||  false && true 
+// //    true ||  falseZ
+// //     true
+// if (!false || false && true) { console.log(" result"); }
+// else { console.log(" not result"); }
+
+// //    Question 19
+
+// //       true && !true ||false
+// //  true && false ||false
+// //   false ||false
+// //   false
+// if (true && !true || false) { console.log(" result") }
+// else { console.log(" not result"); }
+
+// //    Question 20
+
+// //       !false && true || !true
+// //  true && true || false
+// //  true || false
+// //  true
+// if (!false && true || !true) { console.log(" result"); }
+// else { console.log(" not result"); }
+
+
+
+
+// let studentname = ["nimra", "fatima", "maryam", "maria", "tanzeela",
+//     "eshal", "laiba", "aliza", "rabia", "areeba",]
+// console.log(studentname);
+
+// console.log(studentname[3]);
+// console.log(studentname[4]);
+// console.log(studentname[11]);
+// studentname [7] ="mahnoor"
+
+// console.log(studentname);
+// console.log(studentname.length);
+// console.log(studentname[studentname.length- 1]);
+// studentname.length = 0
+// console.log(studentname);
+
+
+// //   arry 
+// //    nested wala 
+
+// let nested = ["box1", ["box2", "box2 sis", ["box2", "box2 brother"]], "box3", , ["box4", "box4 sis",], "box5",]
+// console.log(nested );
+// console.log(nested[2]);
+// console.log( nested[nested.length-1]);
+// console.log(nested[1][1]);
+// console.log(nested[1][2][1][1]);
+
+
+
+
+// if(   ){  
+//    if( ){
+
+
+//    }
+//    else{
+
+//    }
+
+
+// }else{
+
+
+// }
+
+ 
+//  Bonus challenge
+// let employees = [
+//   ["Ali", 30000],
+//   ["Sara", 40000],
+//   ["Ahmed", 35000]
+// ];
+// console.log(employees[1][1]);
+// console.log(employees[2][0]);
+// console.log(employees.length );
+// employees [0] [1] ="35000"
+// console.log(employees);
+
+//     // question 3
+// let products = ["Laptop", "Mouse", "Keyboard", "Monitor", "Printer", "Speaker"];
+// console.log(products.length );
+// console.log(products.length );
+// console.log(products[products.length-1]);
+// console.log(products[products.length-2]);
+// let product = ["facewash","moisterizer","serum","sunblock"]
+// console.log(product.length );
+
+
+//  // question 2
+
+//  let cart = ["Shoes", "Shirt", "Watch", "Bag", "Cap"];
+
+//  console.log(cart[0]);
+//  console.log(cart[2]);
+//  console.log(cart[4]);
+//   console.log(cart[2]);
+//  console.log(cart[4]);
+
+let employees = [
+  ["raza", 30000],
+  ["Sara", 40000],
+  ["Ahmed", 35000],
+  ["ahmer", 35000]
+];
+console.log(employees[1][0]);
+console.log(employees[2][1]);
+ employees [0] [1] =  35000
+  employees [3] [0] ="ashar"
+  console.log(employees.length);
+  console.log(employees);
+  console.log( employees[0][1] + employees[1][1] + employees[2][1] + employees[3][1] );
+  
+ 
+
+
+
