@@ -629,33 +629,33 @@
         //  ATM 
 
 
-let pin = 1234;
-let balance = 560265;
-let withdraw = +prompt("enter your withdraw amount");
+// let pin = 1234;
+// let balance = 560265;
+// let withdraw = +prompt("enter your withdraw amount");
 
 
 
 
-if ( pin ===  1234  ) {
+// if ( pin ===  1234  ) {
 
-          if ( withdraw <= balance ) {
+//           if ( withdraw <= balance ) {
  
-          alert("Transaction Successful")
+//           alert("Transaction Successful")
 
-}else {
-   alert("Insufficient Balance")
-}
+// }else {
+//    alert("Insufficient Balance")
+// }
 
 
-}else {
-   alert("INVALID PIN")
-}
+// }else {
+//    alert("INVALID PIN")
+// }
 
-let totalamount = balance - withdraw
+// let totalamount = balance - withdraw
 
-document.write(` TOTAL BALANCE = ${balance} <br> `);
-document.write(` WITHDRAW AMOUNT =${withdraw}  <br> `);
-document.write(` TOTAL AMOUNT = ${totalamount}`);
+// document.write(` TOTAL BALANCE = ${balance} <br> `);
+// document.write(` WITHDRAW AMOUNT =${withdraw}  <br> `);
+// document.write(` TOTAL AMOUNT = ${totalamount}`);
 
 
 
@@ -1033,21 +1033,118 @@ document.write(` TOTAL AMOUNT = ${totalamount}`);
 //   console.log(cart[2]);
 //  console.log(cart[4]);
 
-let employees = [
-  ["raza", 30000],
-  ["Sara", 40000],
-  ["Ahmed", 35000],
-  ["ahmer", 35000]
-];
-console.log(employees[1][0]);
-console.log(employees[2][1]);
- employees [0] [1] =  35000
-  employees [3] [0] ="ashar"
-  console.log(employees.length);
-  console.log(employees);
-  console.log( employees[0][1] + employees[1][1] + employees[2][1] + employees[3][1] );
+// let employees = [
+//   ["raza", 30000],
+//   ["Sara", 40000],
+//   ["Ahmed", 35000],
+//   ["ahmer", 35000]
+// ];
+// console.log(employees[1][0]);
+// console.log(employees[2][1]);
+//  employees [0] [1] =  35000
+//   employees [3] [0] ="ashar"
+//   console.log(employees.length);
+//   console.log(employees);
+//   console.log( employees[0][1] + employees[1][1] + employees[2][1] + employees[3][1] );
   
+          // METHODS  total 12
+
+          // yeh arry me apply hongye yeh orignal arry me changing karengye
+          // number 1  .push()  arry ke last me element add krega
+          // without store  store krna hoga tw new arry ke sth likhna 2 line me
+let fruits = ["apple","banana","orange",]
+fruits.push("grapes")
+console.log(fruits );
+           
+            // number 2  .pop() arry ke last walay  element ko remove krega
+fruits.pop()
+console.log(fruits );
+
+//           // number 3  .unshift()  arry ke start me element add krega
+
+fruits.unshift("anar")
+console.log(fruits );
+
+          // number 4  .shift()  arry ke start walay element ko remove krega
+       
+ fruits.shift()
+console.log(fruits );            
+
+//             // number 5  .includes()  element ko check krega arry me ha ya nh ha  
+
+console.log( fruits.includes("apple"));  
+console.log( fruits.includes("gava"));    
+
+//           // number 6 .indexof()  element ka num btyega agar element nh hoga wo tw ans -1 me dega
+console.log(fruits.indexOf("orange") ); 
+console.log(fruits.indexOf("pineapple") ); 
+       
+
+
+      // mane new arry banaya ha yaaha se q ke element zada chahiye thy 
+         // number 7  .slice()  yeh arry me se element copy krke new arry me de dega jitne element chaiye utne or  length bhi dega sth me
+  
+  let boxes = ["box1","box2","box3","box4","box5","box6"]
+ let result = boxes.slice(1,6)
+  console.log(result);
+          // number 8 .splice()  yeh method me sab se zada powerfull ha yeh 3 kam eik sath karega
+          // 1 remove 
+
+ boxes.splice(1,1)
+ console.log(boxes);
+ 
+//       // 2 add
+ boxes.splice(1,0,"box7")
+ console.log(boxes);     
+//     // 3  replace
+//   boxes.splice(2,1,"box7")
+//  console.log(boxes); 
+
+
+        //  number 9 .concat()   yeh arry me dosre arrys  ko add kredega (combine kardega)
+
+    // let studentname =["nimra","fatima","tanzeela","maria","eshal"]
+    // let studentid =[0,1,2,3,4]
+    // let studentmarks = [100,100,100,100,100]
+    // let result = studentname.concat(studentid,studentmarks)
+    // console.log(result);
+
+
+      //  number 10 .reverse()  arry ko reverse krdega
+  
+  let number = [10,20,30,40]
+  number.reverse()
+  console.log(number);
+  
+       //  number 11  .join() jor dega arry ko string bana dega
+
+let sentence = ["I","Love","javascript"]
+ console.log(sentence.join(" "));
+
+  //  agar string ko arry me covert krna ha tw .splite use hoga 
+
+ 
+//  console.log(sentence.split("")); 
  
 
 
 
+
+        //  number 12  .sort() yeh sab se bare alphabet ko phle likhe or last me last wali ko
+ let alphabet = ["banana","carrot","apple"]     
+    alphabet.sort()
+    console.log(alphabet);
+     
+    // agar number hongye tw aise kam krega number ko string bana dega or first character dekhyega bas 
+ let numbers = [30,100,20,40]  
+    numbers.sort()
+     console.log(numbers);
+    
+       //  loop  
+
+let arry =[1,2,3,4,5,6,7,8,9]
+  for (let i = 0; i <= arry.length-1; i++){
+     console.log(arry[i]);
+     
+    }
+        
