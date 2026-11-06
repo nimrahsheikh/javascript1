@@ -1189,60 +1189,132 @@
 
 // object non premitive ka seond wala 
 
-let car = {
+// let car = {
 
-  brand: "Toyota",
-  model: "Corolla",
-  year: 2024,
-  colour: "White",
+//   brand: "Toyota",
+//   model: "Corolla",
+//   year: 2024,
+//   colour: "White",
 
-}
+// }
 
-console.log(car);
+// console.log(car);
 
-//  dot notation 
-console.log(car.model);
+// //  dot notation 
+// console.log(car.model);
 
-//  braket notation 
-console.log(car["colour"]);
-// add 
-car.price = 7500000
-console.log(car);
-//  update
-car.price = 6000000
-console.log(car);
-//   delete
-delete car.colour;
-console.log(car);
-//  object me arry add krwaya ha 
-car.user = ["fatima", "nimra", "maria", "tanzeela"]
-console.log(car);
+// //  braket notation 
+// console.log(car["colour"]);
+// // add 
+// car.price = 7500000
+// console.log(car);
+// //  update
+// car.price = 6000000
+// console.log(car);
+// //   delete
+// delete car.colour;
+// console.log(car);
+// //  object me arry add krwaya ha 
+// car.user = ["fatima", "nimra", "maria", "tanzeela"]
+// console.log(car);
 
-//  object me arry ka 2 wali value ko delete krwaya ha ans empty ayega
-//  q ke delete key ko delete krta ha puri multipales value ha arry me tw tabhi empty aya ha 
-delete car.user[2]
-console.log(car);
+// //  object me arry ka 2 wali value ko delete krwaya ha ans empty ayega
+// //  q ke delete key ko delete krta ha puri multipales value ha arry me tw tabhi empty aya ha 
+// delete car.user[2]
+// console.log(car);
 
-    //  nested object 
+//     //  nested object 
 
-let user = {
- name :" nimra",
-  age : 21,
-   address : {
+// let user = {
+//  name :" nimra",
+//   age : 21,
+//    address : {
 
-  height: 5.2,
- colour: "burgandy",
- friendName :["maryam","aiman"]
-  }
+//   height: 5.2,
+//  colour: "burgandy",
+//  friendName :["fatima","maria"]
+//   }
  
-}
+// }
 
-console.log(user);
+// console.log(user);
 
- // calling nested object value 
-console.log(user.address.colour); 
- // calling nested me jo arry ha oski  value 
-console.log(user.address.friendName[0]);
+//  // calling nested object value 
+// console.log(user.address.colour); 
+//  // calling nested me jo arry ha oski  value 
+// console.log(user.address.friendName[0]);
+
+
+                  // task nested object  with condition 
+
+ let student =  
+  {
+     name : "Nimra Sheikh",
+     class : "ADA Part 2",
+     gender : "female",
+     Address : {
+      city :  "Karachi",
+      country : "Pakistan"
+         
+ }
+  }  
+  if (student.Address.city == "Karachi" )  {
+  
+    console.log("City Matched Successfully!");
+    
+
+  } else {
+
+     console.log( "City Not Matched. Please Enter the Correct City.");
+
+  }          
+
+
+      // operator object   in
+      // yeh sirf key check krega 
+   console.log("name" in student);
+
+  //  methods of object  O captial hona chahiye
+
+      // 1) Object.keys 
+  console.log(Object.keys (student));
+      
+      // 2) Object.values 
+ console.log(Object.values (student));
+
+      // 3) Object.entries
+  console.log(Object.entries (student));
+
+
+          // task khud se chatgpt se liya tha  (practice)
+
+  let company = {
+  name: "CodeTech Solutions",
+  location: {
+    city: "Karachi",
+    country: "Pakistan"
+  },
+  manager: {
+    name: "nimra",
+    age: 21,
+    department: "Frontend Development"
+   
+  }
+};
+
+ console.log("manager" in company);                        // check karo manager property available hai ya nahi.
+ console.log(Object.keys (company));                      //  Company ki keys nikalo.
+ console.log(Object.values (company.manager));            //  Manager ki values nikalo.
+ console.log(Object.entries (company.location));         //   Location ki entries nikalo.
+ console.log(Object.keys (company.manager).length);     //    Manager ki keys ka count nikalo.
+ console.log("name" in company.manager);               //    Check karo manager ke andar salary property exist karti hai ya nahi.
+ 
+     
+
+
+
+
+
 
 
 
