@@ -1,5 +1,5 @@
 //  REASSIGN
- 
+
 //  let studentName ="nimrah"
 // console.log(studentName)
 
@@ -29,14 +29,14 @@
 // // redeclare
 // // let group ="nimra.groups"
 // // console.log(group)
- 
+
 // // let group ="maria.groups"
 // // console.log(group)
 
 
 // // var group ="nimra.groups"
 // // console.log(group)
- 
+
 // // var group ="maria.groups"
 // // console.log(group)
 
@@ -97,7 +97,7 @@
 // console.log(typeof ( isshemarried ));
 
 // //  4 type undefined
- 
+
 // let car;
 // console.log(car)
 // console.log(typeof ( car ));
@@ -156,7 +156,7 @@
 
 //    console.log(animals.replace("love", "like"));
 
- 
+
 
 // //  7 trim 
 // let text1 = "   hello everyone   "
@@ -185,7 +185,7 @@
 //     let text5 ="hello everyone"
 //   console.log(text5);
 //   console.log(text5.split(e))
- 
+
 //     // 12 repeat 
 
 //       let text6 ="hello everyone"
@@ -195,8 +195,8 @@
 
 
 
-  //  number data type 
-  
+//  number data type 
+
 // //  addition 
 //     let number1 = 20
 //     let number2 = 20
@@ -204,7 +204,7 @@
 //     let number4 = 20
 //     let result1 = number1 +  number2 +  number3 +  number4
 //     console.log(result1);
-     
+
 //     //  subtraction 
 //   let number5 = 20
 //     let number6 = 20
@@ -221,7 +221,7 @@
 //     let number12 = 20
 //     let result3 = number1 *  number2 *  number3 *  number4
 //     console.log(result3);
- 
+
 // //  divide jo nechy bach jata ha number wo wala 
 //      let number13 = 20
 //     let number14 = 20
@@ -248,7 +248,7 @@
 
 
 
-  // assignment  4
+// assignment  4
 //   //  question 1
 // let age = "20"
 //  alert(`I am ${age} years old`)
@@ -273,20 +273,20 @@
 
 // document.write(`${visitorname} ordered ${quantity}(s) on ${Producttitle}`) 
 
-   
 
-    // tables bana na  logic se 
-  
+
+// tables bana na  logic se 
+
 
 //    let prom =  prompt("Enter a number for table")
 //    console.log(prom);
-   
+
 
 
 
 
 // let table3 =  prom
- 
+
 // document.write( `${table3} * 1 = ${table3 * 1} <br> `)
 // document.write( `${table3} * 2 = ${table3 * 2} <br> `)
 // document.write( `${table3} * 3 = ${table3 * 3} <br> `)
@@ -303,7 +303,7 @@
 
 //    let prom2 =  +prompt("Enter your second number")
 //    console.log(prom2);
- 
+
 //    document.write(`YOUR FIRST NO IS  ${prom1} *  YOUR SECOND NO IS   ${prom2} = ${prom1 * prom2}  THIS IS A ANSWER<br> `)
 //     document.write( `YOUR FIRST NO IS  ${prom1} + YOUR SECOND NO IS   ${prom2}= ${prom1 + prom2}  THIS IS A ANSWER<br>`)
 //      document.write(`YOUR FIRST NO IS  ${prom1} - YOUR SECOND NO IS   ${prom2}= ${prom1 - prom2}  THIS IS A ANSWER <br>`)
@@ -311,20 +311,20 @@
 
 
 
-  //       let prom3 =  prompt("Enter your NAME")
-  //  console.log(prom3);
-  //   let prom4 =  prompt("Enter your NAME?","NOOR")
-  //  console.log(prom4);
+//       let prom3 =  prompt("Enter your NAME")
+//  console.log(prom3);
+//   let prom4 =  prompt("Enter your NAME?","NOOR")
+//  console.log(prom4);
 
 
 
 
-  // let birthyear =   +prompt("Enter your BirthYear")
- 
+// let birthyear =   +prompt("Enter your BirthYear")
 
-  //     let currentyear = 2026
 
-  // document.write(` BirthYear = ${birthyear}         <br> Current Year = ${currentyear}   <br> Your Current Age Is = ${currentyear - birthyear}   `)
+//     let currentyear = 2026
+
+// document.write(` BirthYear = ${birthyear}         <br> Current Year = ${currentyear}   <br> Your Current Age Is = ${currentyear - birthyear}   `)
 
 
 
@@ -341,7 +341,7 @@
 //    console.log(a);
 //    console.log(b);
 //    console.log(result1);
-   
+
 
 
 //     // QUESTION 2 
@@ -361,7 +361,7 @@
 //   console.log(c);
 //    console.log(d);
 //    console.log(result2);
-   
+
 //     // QUESTION 3
 
 //     let e = 10;   //9
@@ -371,21 +371,21 @@
 //                 // 9 + 5 - 7
 //                 // 14 - 7
 //                 // 7
-                
-        
+
+
 
 
 //    console.log(e);
 //    console.log(f);
 //    console.log(result3);
-   
-  
+
+
 //   // QUESTION 4
 
 //   let g = 4; //5 //4
 //   let h = 2; //3
 //   let result4 = ++g * h++ + --g;
-              
+
 //             //  5 * 2 + 4
 //             //  10 + 4
 //             //  14
@@ -418,7 +418,7 @@
 //    let k = 2; //3 //4
 //    let l = 4; //3
 //    let result6 = ++k +  k++ * --l;
-               
+
 //                  3 + 3 * 3
 //                  3 + 9
 //                  12
@@ -430,13 +430,13 @@
 //    console.log(result6);
 
 
-      
+
 //    // QUESTION 7
 
 //    let m = 5; //6 //7 //6
 // let n = 2;    //1 //2
 // let result7 = ++m + m++ + --n * n++ - m--;
-  
+
 //              6 + 6 + 1 * 1 - 7
 //              6 + 6 + 1 - 7
 //              12 + 1 - 7
@@ -455,7 +455,7 @@
 // console.log(marks > 20);   //true
 // console.log(marks < 20);  //false
 // console.log(marks1 < "20");  //false
- 
+
 // // 25 or 20 me dosra charactor check ho rha he 5 kya 0 se chota ha tw tabhi false arha he 
 
 // console.log(marks >= 20); //true
@@ -476,7 +476,7 @@
 
 
 // 2 se divide hojyega tw even or na ho tw odd 
- 
+
 // let number = +prompt("enter your number")
 
 // if (number % 2 == 0) {
@@ -493,13 +493,13 @@
 // }
 
 // else{ alert("you are not elegible for voting")}
- 
 
 
 
 
-  //  string ke method 
-    // index 
+
+//  string ke method 
+// index 
 // let name1 = "hell0"
 // console.log(name1.indexOf("l")); //2
 // //  length
@@ -511,14 +511,14 @@
 
 
 
-                //  ASSIGNMENT 7
+//  ASSIGNMENT 7
 
-                //   QUESTION 1
-                 //  multipule condition mtlb bohot sari condition lgana 
+//   QUESTION 1
+//  multipule condition mtlb bohot sari condition lgana 
 
 // let colour = prompt("Enter  Trafic Signal Colour")
 // if (colour == "red" ) {
- 
+
 //   alert("STOP")
 // }
 // else if(colour == "yellow" ) {
@@ -532,12 +532,12 @@
 // }
 
 
- 
 
 
 
-               //  QUESTION 2
-              //  multipule condition mtlb bohot sari condition lgana 
+
+//  QUESTION 2
+//  multipule condition mtlb bohot sari condition lgana 
 
 
 
@@ -551,16 +551,16 @@
 
 //    console.log("please enter a number");
 // }
- 
+
 //  else if(mark >= 100) {
 
 //    console.log("invalid");
 // }
 
 //  else if (mark >= 90) {
- 
+
 //   console.log("A+");
-  
+
 // }
 
 
@@ -595,18 +595,18 @@
 // }
 
 
-   
- 
 
 
-  
 
-                // QUESTION 3
 
-                  // Nested condition  
-    // mtlb condition ke andar 1 or condition lagana 
 
-     
+
+// QUESTION 3
+
+// Nested condition  
+// mtlb condition ke andar 1 or condition lagana 
+
+
 
 // let username = prompt("enter your username");
 // let password = prompt("enter your password") ;         
@@ -624,9 +624,9 @@
 //   alert("Invalid Username")
 // }
 
- 
 
-        //  ATM 
+
+//  ATM 
 
 
 // let pin = 1234;
@@ -639,7 +639,7 @@
 // if ( pin ===  1234  ) {
 
 //           if ( withdraw <= balance ) {
- 
+
 //           alert("Transaction Successful")
 
 // }else {
@@ -1000,7 +1000,7 @@
 
 // }
 
- 
+
 //  Bonus challenge
 // let employees = [
 //   ["Ali", 30000],
@@ -1046,105 +1046,210 @@
 //   console.log(employees.length);
 //   console.log(employees);
 //   console.log( employees[0][1] + employees[1][1] + employees[2][1] + employees[3][1] );
-  
-          // METHODS  total 12
 
-          // yeh arry me apply hongye yeh orignal arry me changing karengye
-          // number 1  .push()  arry ke last me element add krega
-          // without store  store krna hoga tw new arry ke sth likhna 2 line me
-let fruits = ["apple","banana","orange",]
-fruits.push("grapes")
-console.log(fruits );
-           
-            // number 2  .pop() arry ke last walay  element ko remove krega
-fruits.pop()
-console.log(fruits );
+// METHODS  total 12
 
-//           // number 3  .unshift()  arry ke start me element add krega
+// yeh arry me apply hongye yeh orignal arry me changing karengye
+// number 1  .push()  arry ke last me element add krega
+// without store  store krna hoga tw new arry ke sth likhna 2 line me
+// let fruits = ["apple","banana","orange",]
+// fruits.push("grapes")
+// console.log(fruits );
 
-fruits.unshift("anar")
-console.log(fruits );
+//             // number 2  .pop() arry ke last walay  element ko remove krega
+// fruits.pop()
+// console.log(fruits );
 
-          // number 4  .shift()  arry ke start walay element ko remove krega
-       
- fruits.shift()
-console.log(fruits );            
+// //           // number 3  .unshift()  arry ke start me element add krega
 
-//             // number 5  .includes()  element ko check krega arry me ha ya nh ha  
+// fruits.unshift("anar")
+// console.log(fruits );
 
-console.log( fruits.includes("apple"));  
-console.log( fruits.includes("gava"));    
+//           // number 4  .shift()  arry ke start walay element ko remove krega
 
-//           // number 6 .indexof()  element ka num btyega agar element nh hoga wo tw ans -1 me dega
-console.log(fruits.indexOf("orange") ); 
-console.log(fruits.indexOf("pineapple") ); 
-       
+//  fruits.shift()
+// console.log(fruits );            
+
+// //             // number 5  .includes()  element ko check krega arry me ha ya nh ha  
+
+// console.log( fruits.includes("apple"));  
+// console.log( fruits.includes("gava"));    
+
+// //           // number 6 .indexof()  element ka num btyega agar element nh hoga wo tw ans -1 me dega
+// console.log(fruits.indexOf("orange") ); 
+// console.log(fruits.indexOf("pineapple") ); 
 
 
-      // mane new arry banaya ha yaaha se q ke element zada chahiye thy 
-         // number 7  .slice()  yeh arry me se element copy krke new arry me de dega jitne element chaiye utne or  length bhi dega sth me
-  
-  let boxes = ["box1","box2","box3","box4","box5","box6"]
- let result = boxes.slice(1,6)
-  console.log(result);
-          // number 8 .splice()  yeh method me sab se zada powerfull ha yeh 3 kam eik sath karega
-          // 1 remove 
 
- boxes.splice(1,1)
- console.log(boxes);
+//       // mane new arry banaya ha yaaha se q ke element zada chahiye thy 
+//          // number 7  .slice()  yeh arry me se element copy krke new arry me de dega jitne element chaiye utne or  length bhi dega sth me
+
+//   let boxes = ["box1","box2","box3","box4","box5","box6"]
+//  let result = boxes.slice(1,6)
+//   console.log(result);
+//           // number 8 .splice()  yeh method me sab se zada powerfull ha yeh 3 kam eik sath karega
+//           // 1 remove 
+
+//  boxes.splice(1,1)
+//  console.log(boxes);
+
+// //       // 2 add
+//  boxes.splice(1,0,"box7")
+//  console.log(boxes);     
+// //     // 3  replace
+// //   boxes.splice(2,1,"box7")
+// //  console.log(boxes); 
+
+
+//         //  number 9 .concat()   yeh arry me dosre arrys  ko add kredega (combine kardega)
+
+//     // let studentname =["nimra","fatima","tanzeela","maria","eshal"]
+//     // let studentid =[0,1,2,3,4]
+//     // let studentmarks = [100,100,100,100,100]
+//     // let result = studentname.concat(studentid,studentmarks)
+//     // console.log(result);
+
+
+//       //  number 10 .reverse()  arry ko reverse krdega
+
+//   let number = [10,20,30,40]
+//   number.reverse()
+//   console.log(number);
+
+//        //  number 11  .join() jor dega arry ko string bana dega
+
+// let sentence = ["I","Love","javascript"]
+//  console.log(sentence.join(" "));
+
+//   //  agar string ko arry me covert krna ha tw .splite use hoga 
+
+
+// //  console.log(sentence.split("")); 
+
+
+
+
+
+//         //  number 12  .sort() yeh sab se bare alphabet ko phle likhe or last me last wali ko
+//  let alphabet = ["banana","carrot","apple"]     
+//     alphabet.sort()
+//     console.log(alphabet);
+
+//     // agar number hongye tw aise kam krega number ko string bana dega or first character dekhyega bas 
+//  let numbers = [30,100,20,40]  
+//     numbers.sort()
+//      console.log(numbers);
+
+//  loop  
+// decrement (subtraction )  backward counting
+// // let arry =[1,2,3,4,5,6,7,8,9]
+//   for (let i = 100; i >=1; i--){
+//      console.log(i);
+
+// }
+
+// increment (addition)   counting 
+
+//          for (let i = 1; i <=100; i++){
+//      console.log(i);
+
+//     }
+//     // multiplation
+//     // 2 table 
+
+//     for(let i = 1;i <= 10; i++ )
+
+//       {
+//  document.write(`2 x ${i} = ${2 * i} <br>`)
+//       }
+
+// loop on arry dainamic
+// let fruit = ["apple","banana","gauva","grapes","orange"]
+//       for(let i = 0; i< fruit.lenght;i++ ){
+//         console.log(fruit[i]);
+//         }
+//         //  loop on arry dainamic reverse krna ho tw 
+
+
+
+
+// for ( let i = 0; i<=5; i++ )
+// {
+// console.log(fruit[i]);
+
+// }
+
+
+//    let fruit = ["apple","banana","gauva","grapes","orange"]
+
+//  for( let i = fruit.lenght-1; i >= 0; i-- ){
+//         console.log(fruit[i]);
+//         }
+
+
+// object non premitive ka seond wala 
+
+let car = {
+
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2024,
+  colour: "White",
+
+}
+
+console.log(car);
+
+//  dot notation 
+console.log(car.model);
+
+//  braket notation 
+console.log(car["colour"]);
+// add 
+car.price = 7500000
+console.log(car);
+//  update
+car.price = 6000000
+console.log(car);
+//   delete
+delete car.colour;
+console.log(car);
+//  object me arry add krwaya ha 
+car.user = ["fatima", "nimra", "maria", "tanzeela"]
+console.log(car);
+
+//  object me arry ka 2 wali value ko delete krwaya ha ans empty ayega
+//  q ke delete key ko delete krta ha puri multipales value ha arry me tw tabhi empty aya ha 
+delete car.user[2]
+console.log(car);
+
+    //  nested object 
+
+let user = {
+ name :" nimra",
+  age : 21,
+   address : {
+
+  height: 5.2,
+ colour: "burgandy",
+ friendName :["maryam","aiman"]
+  }
  
-//       // 2 add
- boxes.splice(1,0,"box7")
- console.log(boxes);     
-//     // 3  replace
-//   boxes.splice(2,1,"box7")
-//  console.log(boxes); 
+}
 
+console.log(user);
 
-        //  number 9 .concat()   yeh arry me dosre arrys  ko add kredega (combine kardega)
-
-    // let studentname =["nimra","fatima","tanzeela","maria","eshal"]
-    // let studentid =[0,1,2,3,4]
-    // let studentmarks = [100,100,100,100,100]
-    // let result = studentname.concat(studentid,studentmarks)
-    // console.log(result);
-
-
-      //  number 10 .reverse()  arry ko reverse krdega
-  
-  let number = [10,20,30,40]
-  number.reverse()
-  console.log(number);
-  
-       //  number 11  .join() jor dega arry ko string bana dega
-
-let sentence = ["I","Love","javascript"]
- console.log(sentence.join(" "));
-
-  //  agar string ko arry me covert krna ha tw .splite use hoga 
-
- 
-//  console.log(sentence.split("")); 
- 
+ // calling nested object value 
+console.log(user.address.colour); 
+ // calling nested me jo arry ha oski  value 
+console.log(user.address.friendName[0]);
 
 
 
 
-        //  number 12  .sort() yeh sab se bare alphabet ko phle likhe or last me last wali ko
- let alphabet = ["banana","carrot","apple"]     
-    alphabet.sort()
-    console.log(alphabet);
-     
-    // agar number hongye tw aise kam krega number ko string bana dega or first character dekhyega bas 
- let numbers = [30,100,20,40]  
-    numbers.sort()
-     console.log(numbers);
-    
-       //  loop  
 
-let arry =[1,2,3,4,5,6,7,8,9]
-  for (let i = 0; i <= arry.length-1; i++){
-     console.log(arry[i]);
-     
-    }
-        
+
+
+
+
+
