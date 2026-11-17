@@ -1223,19 +1223,28 @@
 // delete car.user[2]
 // console.log(car);
 
-//     //  nested object 
+      // object 
+      let car = {
 
-// let user = {
-//  name :" nimra",
-//   age : 21,
-//    address : {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2024,
+  colour: "White",
 
-//   height: 5.2,
-//  colour: "burgandy",
-//  friendName :["fatima","maria"]
-//   }
+}
+//   nested object 
+
+let user = {
+ name :" nimra",
+  age : 21,
+   address : {
+
+  height: 5.2,
+ colour: "burgandy",
+ friendName :["fatima","maria"]
+  }
  
-// }
+}
 
 // console.log(user);
 
@@ -1245,73 +1254,105 @@
 // console.log(user.address.friendName[0]);
 
 
-                  // task nested object  with condition 
+//                   // task nested object  with condition 
 
- let student =  
-  {
-     name : "Nimra Sheikh",
-     class : "ADA Part 2",
-     gender : "female",
-     Address : {
-      city :  "Karachi",
-      country : "Pakistan"
+//  let student =  
+//   {
+//      name : "Nimra Sheikh",
+//      class : "ADA Part 2",
+//      gender : "female",
+//      Address : {
+//       city :  "Karachi",
+//       country : "Pakistan"
          
- }
-  }  
-  if (student.Address.city == "Karachi" )  {
+//  }
+//   }  
+//   if (student.Address.city == "Karachi" )  {
   
-    console.log("City Matched Successfully!");
+//     console.log("City Matched Successfully!");
     
 
-  } else {
+//   } else {
 
-     console.log( "City Not Matched. Please Enter the Correct City.");
+//      console.log( "City Not Matched. Please Enter the Correct City.");
 
-  }          
+//   }          
 
 
-      // operator object   in
-      // yeh sirf key check krega 
-   console.log("name" in student);
+//       // operator object   in
+//       // yeh sirf key check krega 
+//    console.log("name" in student);
 
-  //  methods of object  O captial hona chahiye
+//   //  methods of object  O captial hona chahiye
 
-      // 1) Object.keys 
-  console.log(Object.keys (student));
+//       // 1) Object.keys 
+//   console.log(Object.keys (student));
       
-      // 2) Object.values 
- console.log(Object.values (student));
+//       // 2) Object.values 
+//  console.log(Object.values (student));
 
-      // 3) Object.entries
-  console.log(Object.entries (student));
+//       // 3) Object.entries
+//   console.log(Object.entries (student));
 
 
-          // task khud se chatgpt se liya tha  (practice)
+//           // task khud se chatgpt se liya tha  (practice)
 
-  let company = {
-  name: "CodeTech Solutions",
-  location: {
-    city: "Karachi",
-    country: "Pakistan"
-  },
-  manager: {
-    name: "nimra",
-    age: 21,
-    department: "Frontend Development"
+//   let company = {
+//   name: "CodeTech Solutions",
+//   location: {
+//     city: "Karachi",
+//     country: "Pakistan"
+//   },
+//   manager: {
+//     name: "nimra",
+//     age: 21,
+//     department: "Frontend Development"
    
-  }
-};
+//   }
+// };
 
- console.log("manager" in company);                        // check karo manager property available hai ya nahi.
- console.log(Object.keys (company));                      //  Company ki keys nikalo.
- console.log(Object.values (company.manager));            //  Manager ki values nikalo.
- console.log(Object.entries (company.location));         //   Location ki entries nikalo.
- console.log(Object.keys (company.manager).length);     //    Manager ki keys ka count nikalo.
- console.log("name" in company.manager);               //    Check karo manager ke andar salary property exist karti hai ya nahi.
+//  console.log("manager" in company);                        // check karo manager property available hai ya nahi.
+//  console.log(Object.keys (company));                      //  Company ki keys nikalo.
+//  console.log(Object.values (company.manager));            //  Manager ki values nikalo.
+//  console.log(Object.entries (company.location));         //   Location ki entries nikalo.
+//  console.log(Object.keys (company.manager).length);     //    Manager ki keys ka count nikalo.
+//  console.log("name" in company.manager);               //    Check karo manager ke andar salary property exist karti hai ya nahi.
  
      
 
 
+      // arry of object
+
+// let student1 = [
+//   {name: "nimra",age: 21,city : "karachi"},
+//   {name: "fatima",age: 22,city : "lahore"},
+//   {name: "tanzeela",age: 23, city : "islamabad"},
+//   {name: "maria",age: 19,city : "KPK"},
+//   {name: "Eshal",age: 18,city : "faislabad"}
+// ]
+//         // sirf keys nikalni ha object 2 ki 
+// console.log(Object.keys(student1[1]));
+//             //  keys and values nikalni ha object 4 ki 
+// console.log(Object.entries(student1[3]));
+//           // update krwani ha 1 value ko
+// student1[0].age = "20"
+// console.log(student1);
+//           // 1object add krwana ha last me 
+//  student1.push({
+//   name :"aliza",
+//    age: 24,
+//     city : "faislabad"
+
+//  })
+//  console.log(student1);
+//              // 1object add krwana ha start me 
+// student1.unshift({
+//   name :"laiba",
+//    age: 23,
+//     city : "karachi"
+
+//  })
+//  console.log(student1);
 
 
 
@@ -1321,6 +1362,92 @@
 
 
 
+let patients = [
+    {
+        name: "Ali",
+        age: 25,
+        disease: "Fever",
+        fee: 1000,
+        paid: true
+    },
+    {
+        name: "Sara",
+        age: 30,
+        disease: "Flu",
+        fee: 1500,
+        paid: false
+    },
+    {
+        name: "Ahmed",
+        age: 45,
+        disease: "Cough",
+        fee: 800,
+        paid: true
+    },
+    {
+        name: "Zain",
+        age: 55,
+        disease: "Headache",
+        fee: 1200,
+        paid: false
+    }
+];
+        //  task 1
+function hospital (){
+  for (i =0; i<=patients.length-1;  i++){
+      console.log(patients[i].name);
+       console.log(patients[i].age);
+        console.log(patients[i].disease);
+         console.log(patients[i].fee);
+          console.log(patients[i].paid);
+ if(patients[i].paid == true)
+{console.log("Payment Completed"); }
+else{console.log("Payment not Complete"); }
+       }}
+hospital();         
+                // task 2  
+ function findPatient(name){
+for(i =0; i<=patients.length-1;  i++){
+if( name  == patients[i].name ){
+    console.log(`Patient Found:${name} Disease:${patients.disease}`)}
+    
+ 
+ else{ console.log("Patient Not Found");}
+}}
+findPatient("Sara");
+            // task 3 
+function checkSeniorPatients() {
+ for (i =0; i<=patients.length-1;  i++){
+ console.log(patients[i].name);
+  if(40 <= patients[i].age){console.log("Senior Patient");}
+  else{console.log("Regular Patient"); }
+ } }
+ checkSeniorPatients();
+             //  task 4
+ function countPatients() {
+ return patients.length}
+console.log(`Total Paitients ${countPatients()}`);
+
+
+
+
+   let button = document.getElementById("btn");
+    btn.addEventListener("click",function alert(){
+
+        Swal.fire({
+  title: "Custom width, padding, color, background.",
+  width: 600,
+  padding: "3em",
+  color: "#716add",
+  background: "#fff url(/images/trees.png)",
+  backdrop: `
+    rgba(0,0,123,0.4)
+    url("/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `
+});
+    })
 
 
 
