@@ -1223,27 +1223,27 @@
 // delete car.user[2]
 // console.log(car);
 
-      // object 
-      let car = {
+// object 
+let car = {
 
-  brand: "Toyota",
-  model: "Corolla",
-  year: 2024,
-  colour: "White",
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2024,
+    colour: "White",
 
 }
 //   nested object 
 
 let user = {
- name :" nimra",
-  age : 21,
-   address : {
+    name: " nimra",
+    age: 21,
+    address: {
 
-  height: 5.2,
- colour: "burgandy",
- friendName :["fatima","maria"]
-  }
- 
+        height: 5.2,
+        colour: "burgandy",
+        friendName: ["fatima", "maria"]
+    }
+
 }
 
 // console.log(user);
@@ -1264,13 +1264,13 @@ let user = {
 //      Address : {
 //       city :  "Karachi",
 //       country : "Pakistan"
-         
+
 //  }
 //   }  
 //   if (student.Address.city == "Karachi" )  {
-  
+
 //     console.log("City Matched Successfully!");
-    
+
 
 //   } else {
 
@@ -1287,7 +1287,7 @@ let user = {
 
 //       // 1) Object.keys 
 //   console.log(Object.keys (student));
-      
+
 //       // 2) Object.values 
 //  console.log(Object.values (student));
 
@@ -1307,7 +1307,7 @@ let user = {
 //     name: "nimra",
 //     age: 21,
 //     department: "Frontend Development"
-   
+
 //   }
 // };
 
@@ -1317,11 +1317,11 @@ let user = {
 //  console.log(Object.entries (company.location));         //   Location ki entries nikalo.
 //  console.log(Object.keys (company.manager).length);     //    Manager ki keys ka count nikalo.
 //  console.log("name" in company.manager);               //    Check karo manager ke andar salary property exist karti hai ya nahi.
- 
-     
 
 
-      // arry of object
+
+
+// arry of object
 
 // let student1 = [
 //   {name: "nimra",age: 21,city : "karachi"},
@@ -1359,7 +1359,7 @@ let user = {
 
 
 
-
+// function in java script 
 
 
 let patients = [
@@ -1392,63 +1392,92 @@ let patients = [
         paid: false
     }
 ];
-        //  task 1
-function hospital (){
-  for (i =0; i<=patients.length-1;  i++){
-      console.log(patients[i].name);
-       console.log(patients[i].age);
+//  task 1
+function hospital() {
+    for (i = 0; i <= patients.length - 1; i++) {
+        console.log(patients[i].name);
+        console.log(patients[i].age);
         console.log(patients[i].disease);
-         console.log(patients[i].fee);
-          console.log(patients[i].paid);
- if(patients[i].paid == true)
-{console.log("Payment Completed"); }
-else{console.log("Payment not Complete"); }
-       }}
-hospital();         
-                // task 2  
- function findPatient(name){
-for(i =0; i<=patients.length-1;  i++){
-if( name  == patients[i].name ){
-    console.log(`Patient Found:${name} Disease:${patients.disease}`)}
-    
- 
- else{ console.log("Patient Not Found");}
-}}
+        console.log(patients[i].fee);
+        console.log(patients[i].paid);
+        if (patients[i].paid == true) { console.log("Payment Completed"); }
+        else { console.log("Payment not Complete"); }
+    }
+}
+hospital();
+// task 2  
+function findPatient(name) {
+    for (i = 0; i <= patients.length - 1; i++) {
+        if (name == patients[i].name) {
+            console.log(`Patient Found:${patients[i].name} Disease:${patients[i].disease}`)
+        }
+
+
+        else { console.log("Patient Not Found"); }
+    }
+}
 findPatient("Sara");
-            // task 3 
+// task 3 
 function checkSeniorPatients() {
- for (i =0; i<=patients.length-1;  i++){
- console.log(patients[i].name);
-  if(40 <= patients[i].age){console.log("Senior Patient");}
-  else{console.log("Regular Patient"); }
- } }
- checkSeniorPatients();
-             //  task 4
- function countPatients() {
- return patients.length}
+    for (i = 0; i <= patients.length - 1; i++) {
+        console.log(patients[i].name);
+        if (40 <= patients[i].age) { console.log("Senior Patient"); }
+        else { console.log("Regular Patient"); }
+    }
+}
+checkSeniorPatients();
+//  task 4
+function countPatients() {
+    return patients.length
+}
 console.log(`Total Paitients ${countPatients()}`);
 
 
+// topic javascript events 
+let button = document.getElementById("btn");
+//  event name click 
+btn.addEventListener("click", function alert() {
+
+    Swal.fire({
+        title: "A LITTLE BIRDIE, A HUGE WOW! 🐦🤯",
+        width: 300,
+        padding: 5,
 
 
-   let button = document.getElementById("btn");
-    btn.addEventListener("click",function alert(){
-
-        Swal.fire({
-  title: "Custom width, padding, color, background.",
-  width: 600,
-  padding: "3em",
-  color: "#716add",
-  background: "#fff url(/images/trees.png)",
-  backdrop: `
+        color: "#716add",
+        background: "#fff url(https://i.gifer.com/origin/5e/5e4ae3f20f5fb42eed108c92fd56c2b5_w200.webp)",
+        backdrop: `
     rgba(0,0,123,0.4)
-    url("/images/nyan-cat.gif")
-    left top
+    url(https://i.gifer.com/origin/04/042c3fa6e5942a0e763690992ffa1517_w200.webp)
+    left top 
+  
+    
     no-repeat
   `
-});
-    })
+    });
+})
 
 
 
+let hover = document.getElementById("box");
+//  event name mouseover 
+hover.addEventListener("mouseover", function () {
+    hover.style.backgroundColor = "#c75a63"
+    hover.style.width = "300px";
+    hover.style.height = "200px";
+    hover.style.border = "2px solid black";
+    hover.style.borderRadius = "15px";
+    hover.style.padding = "20px";
+    hover.style.margin = "20px";
+})
+//  event name mouseout
+hover.addEventListener("mouseout", function () {
+    hover.style.backgroundColor = "#b35ed4c0";
+    hover.style.width = "300px";
+    hover.style.height = "200px";
+    hover.style.border = "2px solid black";
+    hover.style.borderRadius = "15px";
+    hover.style.padding = "20px";
+    hover.style.margin = "20px";
+})
 
